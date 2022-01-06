@@ -49,7 +49,7 @@ function handleSubmit(e) {
   if (p.operator == "/") correctAnswer = p.numberOne / p.numberTwo
   if (p.operator == "%") correctAnswer = p.numberOne % p.numberTwo
 
-
+// modulus doesn't work - what to do?
 
   if (parseFloat(ourField.value, 10) === correctAnswer) {
     state.score++
